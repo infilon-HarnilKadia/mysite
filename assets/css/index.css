@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a img {
+    position: relative;
+    left: 17px;
+}
+
+header {
+    background-image: url("../images/christina-wocintechchat-com-L85a1k-XqH8-unsplash_1.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -86px;
+    z-index: -11;
+}
+
+.collapse ul li {
+    position: relative;
+    top: 3px;
+}
+
+.collapse ul li a {
+    font-family: 'Lexend Deca', sans-serif;
+    /* color: '#D9D9D9'; */
+    color: #d9d9d9;
+    margin-right: 35px;
+}
+
+.collapse .button {
+    border-style: none;
+    width: 165px;
+    height: 40px;
+    position: relative;
+    top: -5px;
+    background-color: rgba(84, 104, 231, 50%);
+}
+
+.box {
+    position: absolute;
+    top: 211px;
+    width: 514px;
+    height: 327.6px;
+    background-color: transparent;
+    border-style: none;
+    color: #F5F5F5;
+    z-index: 2;
+}
+
+.box .card-title {
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 256%;
+}
+
+.box .card-text {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 288px;
+    font-size: 83%;
+}
+
+form {
+    width: 450px;
+}
+
+input[type="email"] {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 79%;
+    border-style: none;
+    width: 247px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+input[type=email]:focus {
+    border: 3px solid #D1ECFD;
+}
+
+form img {
+    position: relative;
+    left: -37px;
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 175px;
+    height: 35px;
+    background-color: #5468E7;
+    border-style: none;
+    border-radius: 3 px;
+    color: #F5F5F5;
+}
+
+.row .part-two {
+    position: relative;
+    /* overflow: hidden; */
+    overflow-x: visible;
+    height: 500px;
+}
+
+.row .part-two .img1 {
+    position: absolute;
+    top: 30px;
+    height: 66%;
+    width: 26%;
+    z-index: 1;
+}
+
+.row .part-two .img2 {
+    position: absolute;
+    left: 128px;
+    top: 11px;
+    height: 112%;
+    width: 83%;
+    z-index: 2;
+}
+
+.row .part-two .img3 {
+    position: relative;
+    top: 325px;
+    left: 22px;
+    z-index: 3;
+    width: 31%;
+    height: 27%;
+}
+
+.row .part-two .img4 {
+    position: absolute;
+    bottom: 119px;
+    left: 213px;
+    z-index: 4;
+    width: 10%;
+    height: 15%;
+}
+
+.row .details .heading {
+    font-size: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #232340;
+    font-weight: bold;
+}
+
+p.heading {
+    font-size: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #232340;
+    font-weight: bold;
+}
+
+.row .details p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.row .details img {
+    margin-right: 10px;
+}
+
+div.row.margin-right {
+    margin-top: 170px;
+    /* margin-bottom: 10px; */
+    /* position: relative; */
+}
+
+div.col-6 {
+    height: 500px;
+    width: 650px;
+}
+
+div.col-6.img-cont {
+    position: relative;
+}
+
+div.col-6>img.img1 {
+    position: static;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+div.col-6>img.img2 {
+    position: absolute;
+    right: 40px;
+    width: 50%;
+    top: 33px;
+}
+
+div.cards1 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: end;
+    margin-right: -30px;
+}
+
+div.cards2 {
+    display: flex;
+    align-items: center;
+    margin-right: -30px;
+}
+
+
+div.col-6>.text-card {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 65%;
+}
+
+/* div.col-6>.text-card p{
+    color: #232340;
+    font-weight: bold;
+    font-size: 47px;
+} */
+
+
+div.col-6>.text-card p {
+    font-weight: medium;
+    /* font-size: 16px; */
+    color: #232340;
+}
+
+div.col-6>.text-card a {
+    font-size: 14px;
+}
+
+div.col-6>img.image1 {
+    position: static;
+    left: 0px;
+    height: 100%;
+    width: 96%;
+    z-index: -1;
+}
+
+div.col-6>img.image2 {
+    position: absolute;
+    right: 60px;
+    width: 36%;
+    top: 157px;
+}
+
+div.col-6>img.image3 {
+    position: absolute;
+    right: 60px;
+    width: 36%;
+    bottom: 6px;
+}
+
+div.col-6>img.images1 {
+    position: static;
+    left: 0px;
+    height: 100%;
+    width: 96%;
+    z-index: -1;
+}
+
+div.col-6>img.images2 {
+    position: absolute;
+    left: 34px;
+    width: 36%;
+    top: 157px;
+}
+
+div.col-6>img.images3 {
+    position: absolute;
+    left: 34px;
+    width: 36%;
+    bottom: 6px;
+}
+
+p>a {
+    position: relative;
+}
+
+p.card-subtitle {
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    font-size: smaller;
+    top: 175px;
+    right: -109px;
+}
+
+.card.card-width {
+    width: 18rem;
+    position: relative;
+}
+
+div.image {
+    /* margin-right: 10px; */
+    position: absolute;
+    right: 238px;
+    margin-top: 14px;
+}
